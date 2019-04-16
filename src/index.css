@@ -1,0 +1,99 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* main css */
+body {
+	background: #40ac9c;
+}
+.search-bar {
+  padding:5px  10px;
+  margin-top: 20px;
+  font-size: 20px;
+	border-radius: 6px;
+	max-width: 1250px;
+	width: 100%;
+}
+.pokemon-container {
+ padding-top: 20px;
+ max-width: 1250px;
+ width: 100%;
+ margin: 0 auto;
+ position: relative;
+}
+.search-bar:hover {
+  outline-color: rgb(236, 236, 241);
+}
+p {
+	background: #000;
+	 color: #fff;
+	 position: absolute;
+	 max-width: 169px;
+	 width: 100%;
+	 border-bottom-left-radius: 20px;
+	 border-bottom-right-radius: 20px;
+	 top: -15px;
+	 left:4.25px;
+	 padding: 4px 3px;
+}
+.pokemon-container img {
+	/* background-color: rgb(154, 240, 175); */
+	background: rgb(245, 242, 243);
+	max-width: 175px;
+	max-height: 175px;
+  width: 100%;
+	height: 100%;
+	border-radius: 7px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	/* border: 1px solid rgb(154, 240, 175); */
+}
+.pokename {
+	background: rgb(95, 92, 92);
+	position: relative;
+}
+header img {
+	max-width: 360px;
+	max-height: 100px;
+}
