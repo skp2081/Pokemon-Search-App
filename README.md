@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a React.js project made at AltCampus. The data for the Pokedex app is taken from the Pokedex API.
+
+This project is Live at: https://pokeverse.netlify.com/
+
+Features
+Search any Pokemon by their name.
+Available Scripts
+In the project directory, you can run:
+
+npm install
+npm start
 ## Available Scripts
 
 In the project directory, you can run:
